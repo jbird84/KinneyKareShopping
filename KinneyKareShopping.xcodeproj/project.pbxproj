@@ -16,6 +16,7 @@
 		DA3F21D3239118E100F9C505 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F21D2239118E100F9C505 /* CategoryCollectionViewCell.swift */; };
 		DA3F21D523911B5700F9C505 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3F21D423911B5700F9C505 /* GoogleService-Info.plist */; };
 		DA3F21D723911EAE00F9C505 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */; };
+		DAAD9D51239183AE0048501F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD9D50239183AE0048501F /* Category.swift */; };
 		F6F38D6F28C09D40E4643E93 /* Pods_KinneyKareShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1C9285994D148304C9E56F /* Pods_KinneyKareShopping.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +30,11 @@
 		DA3F21C52390E9E500F9C505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3F21C82390E9E500F9C505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3F21CA2390E9E500F9C505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA3F21D02391184000F9C505 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA3F21D02391184000F9C505 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryCollectionViewController.swift; path = "KinneyKareShopping/Main Views/CategoryCollectionViewController.swift"; sourceTree = SOURCE_ROOT; };
 		DA3F21D2239118E100F9C505 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA3F21D423911B5700F9C505 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		DAAD9D50239183AE0048501F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		DF1C9285994D148304C9E56F /* Pods_KinneyKareShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinneyKareShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,16 +82,49 @@
 			children = (
 				DA3F21BC2390E9E200F9C505 /* AppDelegate.swift */,
 				DA3F21BE2390E9E200F9C505 /* SceneDelegate.swift */,
-				DA3F21D2239118E100F9C505 /* CategoryCollectionViewCell.swift */,
-				DA3F21D02391184000F9C505 /* CategoryCollectionViewController.swift */,
+				DAAD9D4C239182E90048501F /* Main Views */,
+				DAAD9D4D239183120048501F /* Custom Cells */,
+				DAAD9D4F239183810048501F /* Model */,
+				DAAD9D4E239183300048501F /* Helpers */,
 				DA3F21C22390E9E200F9C505 /* Main.storyboard */,
 				DA3F21C52390E9E500F9C505 /* Assets.xcassets */,
 				DA3F21C72390E9E500F9C505 /* LaunchScreen.storyboard */,
 				DA3F21CA2390E9E500F9C505 /* Info.plist */,
 				DA3F21D423911B5700F9C505 /* GoogleService-Info.plist */,
-				DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */,
 			);
 			path = KinneyKareShopping;
+			sourceTree = "<group>";
+		};
+		DAAD9D4C239182E90048501F /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F21D02391184000F9C505 /* CategoryCollectionViewController.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		DAAD9D4D239183120048501F /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F21D2239118E100F9C505 /* CategoryCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		DAAD9D4E239183300048501F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DAAD9D4F239183810048501F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAAD9D50239183AE0048501F /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F16D44051C65DFAAC61F40BA /* Frameworks */ = {
@@ -221,6 +256,7 @@
 				DA3F21D723911EAE00F9C505 /* FirebaseCollectionReference.swift in Sources */,
 				DA3F21BF2390E9E200F9C505 /* SceneDelegate.swift in Sources */,
 				DA3F21D12391184000F9C505 /* CategoryCollectionViewController.swift in Sources */,
+				DAAD9D51239183AE0048501F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
