@@ -17,6 +17,7 @@
 		DA3F21D523911B5700F9C505 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3F21D423911B5700F9C505 /* GoogleService-Info.plist */; };
 		DA3F21D723911EAE00F9C505 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */; };
 		DAAD9D51239183AE0048501F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD9D50239183AE0048501F /* Category.swift */; };
+		DAAD9D53239190B90048501F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD9D52239190B90048501F /* Constants.swift */; };
 		F6F38D6F28C09D40E4643E93 /* Pods_KinneyKareShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1C9285994D148304C9E56F /* Pods_KinneyKareShopping.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		DA3F21D423911B5700F9C505 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 		DAAD9D50239183AE0048501F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DAAD9D52239190B90048501F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DF1C9285994D148304C9E56F /* Pods_KinneyKareShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinneyKareShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				DA3F21D623911EAE00F9C505 /* FirebaseCollectionReference.swift */,
+				DAAD9D52239190B90048501F /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				DA3F21BD2390E9E200F9C505 /* AppDelegate.swift in Sources */,
 				DA3F21D723911EAE00F9C505 /* FirebaseCollectionReference.swift in Sources */,
 				DA3F21BF2390E9E200F9C505 /* SceneDelegate.swift in Sources */,
+				DAAD9D53239190B90048501F /* Constants.swift in Sources */,
 				DA3F21D12391184000F9C505 /* CategoryCollectionViewController.swift in Sources */,
 				DAAD9D51239183AE0048501F /* Category.swift in Sources */,
 			);
